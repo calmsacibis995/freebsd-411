@@ -1,0 +1,73 @@
+# -I/usr/src/lib/libpam/modules/pam_kerberosIV/../../../../contrib/libpam/libpam/include -I/usr/src/lib/libpam/modules/pam_kerberosIV/../../libpam -DKERBEROS pam_kerberosIV.c klogin.c
+pam_kerberosIV.o pam_kerberosIV.po pam_kerberosIV.So: pam_kerberosIV.c \
+ /usr/obj/usr/src/i386/usr/include/sys/param.h \
+ /usr/obj/usr/src/i386/usr/include/sys/types.h \
+ /usr/obj/usr/src/i386/usr/include/sys/cdefs.h \
+ /usr/obj/usr/src/i386/usr/include/sys/inttypes.h \
+ /usr/obj/usr/src/i386/usr/include/machine/ansi.h \
+ /usr/obj/usr/src/i386/usr/include/machine/types.h \
+ /usr/obj/usr/src/i386/usr/include/machine/endian.h \
+ /usr/obj/usr/src/i386/usr/include/sys/syslimits.h \
+ /usr/obj/usr/src/i386/usr/include/sys/signal.h \
+ /usr/obj/usr/src/i386/usr/include/sys/_posix.h \
+ /usr/obj/usr/src/i386/usr/include/machine/signal.h \
+ /usr/obj/usr/src/i386/usr/include/machine/trap.h \
+ /usr/obj/usr/src/i386/usr/include/sys/ucontext.h \
+ /usr/obj/usr/src/i386/usr/include/machine/ucontext.h \
+ /usr/obj/usr/src/i386/usr/include/machine/param.h \
+ /usr/obj/usr/src/i386/usr/include/machine/limits.h \
+ /usr/obj/usr/src/i386/usr/include/pwd.h \
+ /usr/obj/usr/src/i386/usr/include/stdlib.h \
+ /usr/obj/usr/src/i386/usr/include/string.h \
+ /usr/obj/usr/src/i386/usr/include/unistd.h \
+ /usr/obj/usr/src/i386/usr/include/sys/unistd.h \
+ /usr/src/lib/libpam/modules/pam_kerberosIV/../../../../contrib/libpam/libpam/include/security/pam_modules.h \
+ /usr/obj/usr/src/i386/usr/include/linker_set.h \
+ /usr/src/lib/libpam/modules/pam_kerberosIV/../../../../contrib/libpam/libpam/include/security/_pam_types.h \
+ /usr/obj/usr/src/i386/usr/include/locale.h \
+ /usr/obj/usr/src/i386/usr/include/syslog.h \
+ /usr/obj/usr/src/i386/usr/include/stdarg.h \
+ /usr/src/lib/libpam/modules/pam_kerberosIV/../../../../contrib/libpam/libpam/include/security/pam_appl.h \
+ /usr/src/lib/libpam/modules/pam_kerberosIV/../../../../contrib/libpam/libpam/include/security/_pam_compat.h \
+ /usr/src/lib/libpam/modules/pam_kerberosIV/../../libpam/security/pam_mod_misc.h
+klogin.o klogin.po klogin.So: klogin.c /usr/obj/usr/src/i386/usr/include/sys/param.h \
+ /usr/obj/usr/src/i386/usr/include/sys/types.h \
+ /usr/obj/usr/src/i386/usr/include/sys/cdefs.h \
+ /usr/obj/usr/src/i386/usr/include/sys/inttypes.h \
+ /usr/obj/usr/src/i386/usr/include/machine/ansi.h \
+ /usr/obj/usr/src/i386/usr/include/machine/types.h \
+ /usr/obj/usr/src/i386/usr/include/machine/endian.h \
+ /usr/obj/usr/src/i386/usr/include/sys/syslimits.h \
+ /usr/obj/usr/src/i386/usr/include/sys/signal.h \
+ /usr/obj/usr/src/i386/usr/include/sys/_posix.h \
+ /usr/obj/usr/src/i386/usr/include/machine/signal.h \
+ /usr/obj/usr/src/i386/usr/include/machine/trap.h \
+ /usr/obj/usr/src/i386/usr/include/sys/ucontext.h \
+ /usr/obj/usr/src/i386/usr/include/machine/ucontext.h \
+ /usr/obj/usr/src/i386/usr/include/machine/param.h \
+ /usr/obj/usr/src/i386/usr/include/machine/limits.h \
+ /usr/obj/usr/src/i386/usr/include/sys/syslog.h \
+ /usr/obj/usr/src/i386/usr/include/openssl/des.h \
+ /usr/obj/usr/src/i386/usr/include/openssl/opensslconf.h \
+ /usr/obj/usr/src/i386/usr/include/openssl/e_os2.h \
+ /usr/obj/usr/src/i386/usr/include/openssl/des_old.h \
+ /usr/obj/usr/src/i386/usr/include/openssl/symhacks.h \
+ /usr/obj/usr/src/i386/usr/include/openssl/ui_compat.h \
+ /usr/obj/usr/src/i386/usr/include/openssl/ui.h \
+ /usr/obj/usr/src/i386/usr/include/openssl/crypto.h \
+ /usr/obj/usr/src/i386/usr/include/stdlib.h \
+ /usr/obj/usr/src/i386/usr/include/stdio.h \
+ /usr/obj/usr/src/i386/usr/include/openssl/stack.h \
+ /usr/obj/usr/src/i386/usr/include/openssl/safestack.h \
+ /usr/obj/usr/src/i386/usr/include/openssl/opensslv.h \
+ /usr/obj/usr/src/i386/usr/include/krb.h \
+ /usr/obj/usr/src/i386/usr/include/time.h \
+ /usr/obj/usr/src/i386/usr/include/krb-protos.h \
+ /usr/obj/usr/src/i386/usr/include/stdarg.h \
+ /usr/obj/usr/src/i386/usr/include/err.h \
+ /usr/obj/usr/src/i386/usr/include/netdb.h \
+ /usr/obj/usr/src/i386/usr/include/pwd.h \
+ /usr/obj/usr/src/i386/usr/include/string.h \
+ /usr/obj/usr/src/i386/usr/include/unistd.h \
+ /usr/obj/usr/src/i386/usr/include/sys/unistd.h
+pam_kerberosIV.so: /usr/obj/usr/src/i386/usr/lib/libkrb.a /usr/obj/usr/src/i386/usr/lib/libcrypto.a /usr/obj/usr/src/i386/usr/lib/libcom_err.a
